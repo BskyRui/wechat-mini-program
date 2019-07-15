@@ -1,9 +1,10 @@
 {
   "pages": [
-    "pages/demo/demo"
+    "pages/demo/demo",
+    "pages/home/home"
   ],
   "window": {
-    "navigationStyle": "default", 
+    "navigationStyle": "default",
     "backgroundColor": "#ffffff"
   }
 }

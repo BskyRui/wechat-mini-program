@@ -16,7 +16,11 @@ Page({
     });
     
     setTimeout(function () {
-      wx.hideLoading()
+      wx.hideLoading();
+      // to
+      wx.navigateTo({
+        url: '/pages/home/home',
+      });
     }, 2000);
     
   },

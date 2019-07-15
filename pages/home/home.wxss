@@ -1,0 +1,9 @@
+/* pages/home.wxss */
+.title {
+  display: block;
+  height: 100%;
+  line-height: 100%;
+  width: 100%;
+  text-align: center;
+  padding-top: 300rpx;
+}
