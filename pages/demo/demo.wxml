@@ -2,3 +2,4 @@
 <text>{{text}}</text>
 <demo />
 <view class="view" bindtap="to">1</view>
+<button open-type="getUserInfo" bindgetuserinfo="getUserInfo">login</button>

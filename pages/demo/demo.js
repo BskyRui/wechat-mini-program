@@ -22,10 +22,31 @@ Page({
         url: '/pages/home/home',
       });
     }, 500);
+
+    console.log('auth start');
+    this.userAuthorized();
+    console.log('auth end');
     
   },
 
   calc: function() {
     console.log('heheheha');
+    // user auth info
+    wx.getSetting({
+      success: function(data) {
+        console.log(data);
+        // undefined or true
+        console.log(data.authSetting['scope.userInfo']);
+      }
+    })
+  },
+
+  getUserInfo: function(e){
+    console.log(e)
+  },
+
+  userAuthorized: function() {
+    // const res = await wx.getSetting();
+    // console.log(res);
   }
 })
