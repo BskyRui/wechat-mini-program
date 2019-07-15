@@ -1,4 +1,4 @@
 <!--pages/demo.wxml-->
-<text>pages/demo/demo.wxml</text>
+<text>{{text}}</text>
 <demo />
-<view class="view">1</view>
+<view class="view" bindtap="to">1</view>
