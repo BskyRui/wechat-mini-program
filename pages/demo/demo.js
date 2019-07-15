@@ -11,6 +11,13 @@ Page({
   to: function() {
     // console.log('hehehe');
     this.calc();
+    wx.showLoading({
+      title: 'Loading',
+    });
+    
+    setTimeout(function () {
+      wx.hideLoading()
+    }, 2000);
     
   },
 
