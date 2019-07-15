@@ -1,0 +1,10 @@
+/* pages/demo.wxss */
+.view {
+    display: inline-block;
+    width: 200rpx;
+    height: 200rpx;
+    background: blueviolet;
+    text-align: center;
+    line-height: 200rpx;
+    color: white;
+}

@@ -1,0 +1,9 @@
+{
+  "pages": [
+    "pages/demo/demo"
+  ],
+  "window": {
+    "navigationStyle": "default", 
+    "backgroundColor": "#ffffff"
+  }
+}

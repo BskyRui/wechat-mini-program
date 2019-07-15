@@ -1,0 +1,7 @@
+/* demo.wxss */
+.demo {
+    text-align: center;
+    color: #abc;
+    font-size: 14rpx;
+    display: block;
+}

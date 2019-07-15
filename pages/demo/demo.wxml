@@ -1,0 +1,4 @@
+<!--pages/demo.wxml-->
+<text>pages/demo/demo.wxml</text>
+<demo />
+<view class="view">1</view>
