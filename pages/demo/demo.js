@@ -21,7 +21,7 @@ Page({
       wx.navigateTo({
         url: '/pages/home/home',
       });
-    }, 2000);
+    }, 500);
     
   },
 

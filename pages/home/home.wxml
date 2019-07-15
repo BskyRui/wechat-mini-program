@@ -1,2 +1,2 @@
 <!--pages/home.wxml-->
-<text class="title">首页</text>
+<text class="title" bindtap="add">{{name}}</text>
