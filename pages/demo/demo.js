@@ -5,7 +5,8 @@ Page({
    * Page initial data
    */
   data: {
-    text: "pages/demo/demo.wxml?from=data"
+    text: 'pages/demo/demo.wxml?from=data',
+    loading: true,
   },
   
   to: function() {
@@ -26,7 +27,14 @@ Page({
     console.log('auth start');
     this.userAuthorized();
     console.log('auth end');
-    
+  },
+
+  onLoad: function() {
+    setTimeout(() => {
+      this.setData({
+        loading: false,
+      })
+    }, 3000);
   },
 
   calc: function() {

@@ -1,5 +1,6 @@
 {
   "usingComponents": {
-    "demo": "/components/demo/demo"
+    "demo": "/components/demo/demo",
+    "v-loading": "/components/loading/index"
   }
 }

@@ -1,5 +1,6 @@
 <!--pages/demo.wxml-->
 <text>{{text}}</text>
 <demo />
+<v-loading wx:if="{{loading}}"/>
 <view class="view" bindtap="to">1</view>
 <button open-type="getUserInfo" bindgetuserinfo="getUserInfo">login</button>
