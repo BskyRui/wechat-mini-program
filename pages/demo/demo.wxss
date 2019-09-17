@@ -8,3 +8,16 @@
     line-height: 200rpx;
     color: white;
 }
+
+.chk {
+  width: 100%;
+}
+
+.chk span {
+  width: 20rpx;
+  margin-right: 20rpx;
+  background: #abc;
+}
+.chk span.active {
+  color: #fff;
+}

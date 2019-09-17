@@ -4,3 +4,6 @@
 <v-loading wx:if="{{loading}}"/>
 <view class="view" bindtap="to">1</view>
 <button open-type="getUserInfo" bindgetuserinfo="getUserInfo">login</button>
+<view class="chk">
+  <span wx:for-index="idx" data-idx="{{idx}}" bindtap="select" wx:for="{{arr}}" wx:key="idx" class="{{item.active == true ? 'active' : ''}}">{{item.name}}</span>
+</view>

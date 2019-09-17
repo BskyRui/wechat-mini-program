@@ -7,6 +7,7 @@ Page({
   data: {
     text: 'pages/demo/demo.wxml?from=data',
     loading: true,
+    arr: [{ name: 'check1', active: false }, { name: 'check2', active: false }, { name: 'check3', active: false }],
   },
   
   to: function() {
@@ -56,5 +57,19 @@ Page({
   userAuthorized: function() {
     // const res = await wx.getSetting();
     // console.log(res);
+  },
+
+  select: function(e) {
+    const d = this.data.arr;
+    const idx = e.target.dataset.idx;
+    d.forEach((item, index) => {
+      if (index == idx) {
+        item.active = !item.active;
+        d[idx] = item;
+        this.setData({
+          arr: d
+        });
+      }
+    });
   }
 })
